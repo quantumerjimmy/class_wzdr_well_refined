@@ -1,0 +1,47 @@
+≈çroot = output/DHS_IDM_WZDR_
+output = tCl,pCl,lCl,mPk
+non_linear = Halofit
+lensing = yes
+write background = yes
+write warnings = yes
+############LCDM parameters (set to best-fit Planck18 assuming LCDM) ########
+#100*theta_s = 1.04089
+h=0.7108
+omega_b = 0.02271
+ln10^{10}A_s = 3.058
+n_s = 0.987
+tau_reio = 0.05488
+########## IDM-WZDR parameters ##################################################
+omega_cdm = 0.00001
+omega_idm_wzdr = 0.1279
+N_wzdr = 0.5426
+log10_zt_wzdr = 4.195
+#log10_a_idm_wzdr = -1.44
+Gamma_0_wzdr = 3.66e-07
+rg_wzdr = 1.14285714286
+qsize_wzdr = 10000
+qmax_wzdr = 200.
+use_wzdr_PSD = yes
+
+# these are already the default values
+#spinstat_wzdr = -1
+#g2_wzdr = 1
+#wzdr_integration_method = 1
+#m_idm_wzdr = 1.e11
+#nindex_idm_wzdr = 0
+
+P_k_max_1/Mpc = 1.0
+
+
+# # ###########extra# # ###########
+input_verbose = 10
+background_verbose = 10
+thermodynamics_verbose = 1
+perturbations_verbose = 1
+transfer_verbose = 1
+primordial_verbose = 1
+harmonic_verbose = 1
+fourier_verbose = 1
+lensing_verbose = 1
+distortions_verbose = 1
+output_verbose = 1
